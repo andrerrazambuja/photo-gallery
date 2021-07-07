@@ -14,9 +14,9 @@ function carregaImagens(){
     let imgQtd = imgQtdEl.value
     let imgs = [] 
     if(!imgQtd) imgQtd = 16;
-    if(imgQtd < 8) {
-        imgQtd = 8;
-        imgQtdEl.value = 8;
+    if(imgQtd < 1) {
+        imgQtd = 1;
+        imgQtdEl.value = 1;
     }
 
     for(var i = 1; i <= imgQtd; i++){
